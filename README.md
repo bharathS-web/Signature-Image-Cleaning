@@ -68,7 +68,8 @@ We use a **lightweight U-Net**:
 
 Below is the U-Net architecture used in this project:
 
-![U-Net Architecture](docs/unet_architecture.png)
+<!-- ![U-Net Architecture](docs/unet_architecture.png) -->
+![U-Net Architecture](https://github.com/bharathS-web/Signature-Image-Cleaning/blob/main/docs/unet_architecture.png?raw=true)
 
 
 ---
@@ -105,7 +106,8 @@ streamlit run app.py
 
 During training, we log input vs ground-truth vs model output:
 
-![Model Output](docs/output.png)
+<!-- ![Model Output](docs/output.png) -->
+![Model Output](https://github.com/bharathS-web/Signature-Image-Cleaning/blob/main/docs/output.png?raw=true)
 
 ---
 
