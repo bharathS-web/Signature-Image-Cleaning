@@ -4,8 +4,23 @@ This project implements a **U-Net based deep learning model** to clean noisy or 
 
 ---
 
+## 📑 Table of Contents
+- [Project Structure](#-project-structure)
+- [Dataset Creation](#-dataset-creation)
+- [Technology Used](#-technology-used)
+- [Model Description](#-model-description)
+- [Training](#-training)
+- [Usage](#-usage)
+- [Visualization](#-visualization)
+- [Future Work](#-future-work)
+- [Work By](#-work-by)
+
+
+---
+
 ## 📂 Project Structure  
 
+```bash
 Signature-Image-Cleaning/
 │── experiments/
 │   └── checkpoints/   # Saved model weights
@@ -16,6 +31,13 @@ Signature-Image-Cleaning/
 │── train.ipynb        # Training script
 │── requirements.txt   # Dependencies
 │── README.md          # Project description
+```
+---
+
+## 🛠️ Technologies Used
+- Python, TensorFlow, Keras  
+- OpenCV, NumPy, Matplotlib  
+- Streamlit for Web App
 
 ---
 
@@ -90,7 +112,7 @@ pip install -r requirements.txt
 ### 2. Train the Model
 
 ```bash
-run train.ipynb
+jupyter notebook train.ipynb
 ```
 
 ### 3. Run the Streamlit App
@@ -114,3 +136,19 @@ During training, we log input vs ground-truth vs model output:
 - Train with larger real-world datasets (scanned documents, legal papers).
 
 - Deploy as a web service / API for integration into digital signing platforms.
+
+
+
+---
+
+## 👨‍💻 Work By 
+
+- **Bharath Kumar S**  
+  - 🔗 [GitHub](https://github.com/bharathS-web)  
+  - 💼 [LinkedIn](https://www.linkedin.com/in/bharaths-web/)  
+  - 📧 Email: sbharathkumar1425@gmail.com
+
+- **Sam Smith Lordson R**  
+  - 🔗 [GitHub](https://github.com/sam-smith-10)  
+  - 💼 [LinkedIn](https://www.linkedin.com/in/sam-smith-lordson-r-5772bb292/)  
+  - 📧 Email: samsmithlordsonr@gmail.com
