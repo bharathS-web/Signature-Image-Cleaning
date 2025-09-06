@@ -8,14 +8,14 @@ This project implements a **U-Net based deep learning model** to clean noisy or 
 
 Signature-Image-Cleaning/
 │── experiments/
-│ └── checkpoints/   # Saved model weights
-│── augmentations/   # Noise + augmentation functions
-│── app.py           # Streamlit web app
-│── visualization.py # Visualization functions
-│── model.py         # U-Net model definition
-│── train.ipynb      # Training script
-│── requirements.txt # Dependencies
-│── README.md        # Project description
+│   └── checkpoints/   # Saved model weights
+│── augmentations/     # Noise + augmentation functions
+│── app.py             # Streamlit web app
+│── visualization.py   # Visualization functions
+│── model.py           # U-Net model definition
+│── train.ipynb        # Training script
+│── requirements.txt   # Dependencies
+│── README.md          # Project description
 
 ---
 
@@ -68,7 +68,7 @@ We use a **lightweight U-Net**:
 
 Below is the U-Net architecture used in this project:
 
-![U-Net Architecture](unet_architecture.png)
+![U-Net Architecture](docs/unet_architecture.png)
 
 
 ---
@@ -105,7 +105,7 @@ streamlit run app.py
 
 During training, we log input vs ground-truth vs model output:
 
-![Model Output](output.png)
+![Model Output](docs/output.png)
 
 ---
 
