@@ -1,0 +1,17 @@
+# Core ML/DL
+tensorflow>=2.11,<2.16
+numpy<2
+scipy
+h5py
+
+# Image processing
+opencv-python
+Pillow
+
+# Web app
+streamlit
+streamlit-drawable-canvas
+
+# Utilities
+matplotlib
+scikit-learn
