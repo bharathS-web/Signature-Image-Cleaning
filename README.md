@@ -4,19 +4,6 @@ This project implements a **U-Net based deep learning model** to clean noisy or 
 
 ---
 
-## 📑 Table of Contents
-- [Project Structure](#-project-structure)
-- [Technologies Used](#-technologies-used)
-- [Dataset Creation](#-dataset-creation)
-- [Model Description](#-model-description)
-- [Training](#-training)
-- [Usage](#-usage)
-- [Visualization](#-visualization)
-- [Future Work](#-future-work)
-- [Work By](#-work-by)
-
----
-
 ## 📂 Project Structure  
 
 ```bash
