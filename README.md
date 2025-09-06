@@ -108,7 +108,7 @@ streamlit run app.py
 During training, we log input vs ground-truth vs model output:
 
 <!-- ![Model Output](docs/output.png) -->
-![Model Output](https://github.com/bharathS-web/Signature-Image-Cleaning/blob/main/docs/output.png?raw=true)
+![Model Output](https://github.com/bharathS-web/Signature-Image-Cleaning/blob/main/docs/output.png)
 
 ---
 
