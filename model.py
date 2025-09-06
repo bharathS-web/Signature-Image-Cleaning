@@ -110,8 +110,3 @@ def build_light_unet(input_shape=(224, 224, 1), base_filters=16, use_se=False, n
     model = Model(inputs, outputs, name=name)
     return model
 
-
-# Example usage (uncomment to run under normal Python environment):
-# model = build_light_unet(input_shape=(224,224,1), base_filters=16, use_se=False)
-# model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=1e-3), loss='binary_crossentropy', metrics=['accuracy'])
-# model.summary()

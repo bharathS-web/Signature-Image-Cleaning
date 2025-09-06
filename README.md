@@ -120,6 +120,8 @@ jupyter notebook train.ipynb
 streamlit run app.py
 ```
 
+---
+
 ## 📊 Visualization
 
 During training, we log input vs ground-truth vs model output:
@@ -136,7 +138,6 @@ During training, we log input vs ground-truth vs model output:
 - Train with larger real-world datasets (scanned documents, legal papers).
 
 - Deploy as a web service / API for integration into digital signing platforms.
-
 
 
 ---
