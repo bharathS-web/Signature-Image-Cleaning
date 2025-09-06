@@ -66,12 +66,13 @@ We use a **lightweight U-Net**:
 
 ## 🏗️ Model Architecture
 
-Below is the U-Net architecture used in this project:
 
 <!-- ![U-Net Architecture](docs/unet_architecture.png) -->
 ![U-Net Architecture](https://github.com/bharathS-web/Signature-Image-Cleaning/blob/main/docs/unet_architecture.png?raw=true)
 
+![U-Net Architecture](docs/unet_architecture.png)
 
+![Model Output](docs/output.png)
 ---
 
 ## ⚙️ Training  
